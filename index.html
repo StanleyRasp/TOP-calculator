@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Manipulation</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="device-sizer.js" defer></script>
+        <script src="screen-API.js" type="module" defer></script>
+        <script src="button-integrator.js" type="module"  defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="device-body">
+            <div class="screen">
+                <div class="equation"></div>
+                <div class="input"></div>
+            </div>
+            <div class="keyboard">
+                <div class="func button open-par">(</div>
+                <div class="func button close-par">)</div>
+                <div class="func button power" data-value="^">x<sup>x</sup></div>
+                <div class="func button divide" data-value="/">÷</div>
+                <div class="button 7">7</div>
+                <div class="button 8">8</div>
+                <div class="button 9">9</div>
+                <div class="func button multipy" data-value="*">×</div>
+                <div class="button 4">4</div>
+                <div class="button 5">5</div>
+                <div class="button 6">6</div>
+                <div class="func button subtract">-</div>
+                <div class="button 1">1</div>
+                <div class="button 2">2</div>
+                <div class="button 3">3</div>
+                <div class="func button add">+</div>
+                <div class="func button dot">.</div>
+                <div class="button 0">0</div>
+                <div class="func button AC" data-special="true">AC</div>
+                <div class="func button equals" data-special="true">=</div>
+            </div>
+        </div>   
+    </body>
+</html>
