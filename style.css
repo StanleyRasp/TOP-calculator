@@ -56,17 +56,18 @@ body{
 }
 
 .keyboard{
-    margin: 4vh 1.6vh;
+    margin: 5% 2%;
     display: grid;
     gap: 2vh 2vh;
     grid-template: repeat(5, 1fr) / repeat(4, 1fr);
-    outline: 1px dashed white;
+    /* outline: 1px dashed white; */
+    font-size: 24px;
 }
 
 .button{
     background-color: #999;
     text-align: center;
-    padding: 4% 0 1.6% 0;
+    padding: 1vh 0 0.4vh 0;
     border-radius: 1.5vh;
     font-size: 4.8vh;
     font-family: inherit;
